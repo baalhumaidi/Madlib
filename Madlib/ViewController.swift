@@ -29,7 +29,7 @@ var array = [String]()
     }
 
     @IBAction func unwind(_ segue: UIStoryboardSegue)    {
-        
+     // is therre a best way to do this???
         //thephrase.text = array[String]
         thephrase.isHidden = false
       thephrase.text = "we are having a \(array[0]) (crazy) time now. Later we (will) \(array[1]) run and \(array[2]) (swim) in the \(array[3]) (basement)"

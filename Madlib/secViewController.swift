@@ -36,22 +36,15 @@ class secViewController: UIViewController {
    
   
     }
-    
-  
-        
 
-        
-
+/* as long as we are using the button for the unwind should we use the button to perform seguw????
+ */
            //     performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
 
     
 
     /*
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-              direction = sender as! String
-             let dest = segue.destination as! direction
-         dest.direction = direction
-         }
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
